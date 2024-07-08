@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(164, 233, 233);
+}
+
+.box {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pretime {
+    background-color: rgb(241, 230, 230);
+    padding: 30px 50px;
+    border-radius: 15px;
+}
