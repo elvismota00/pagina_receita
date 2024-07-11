@@ -4,10 +4,21 @@
     box-sizing: border-box; 
 }
 
+@font-face {
+    font-family: outfit;
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
 body {
     margin-left: 200px;
     margin-right: 200px;
     background-color: rgb(164, 233, 233);
+    font-family: outfit;
 }
 
 .box {
@@ -24,4 +35,26 @@ img {
     background-color: rgb(241, 230, 230);
     padding: 30px 50px;
     border-radius: 15px;
+}
+
+h1 {
+    font-family: young-serif;
+    top: 20px;
+}
+
+h2 {
+    font-family: young-serif;
+    color: red;
+}
+
+span {
+    font-weight: bold;
+}
+
+.foot {
+    background-color: rgb(241, 230, 230);
+    padding: 30px 50px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
 }
