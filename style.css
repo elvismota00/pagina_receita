@@ -37,14 +37,45 @@ img {
     border-radius: 15px;
 }
 
+.tp {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 12px;
+} 
+
+li {
+    padding-bottom: 5px;
+}
+
+ol {
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
+.ingre {
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
 h1 {
     font-family: young-serif;
-    top: 20px;
+    padding: 12px 0px 12px 0px;
 }
 
 h2 {
     font-family: young-serif;
     color: red;
+    padding: 7px;
+    padding-left: 0;
+}
+
+.par1 {
+    padding-bottom: 20px;
+}
+
+.par2 {
+    padding-top: 5px;
+    padding-bottom: 12px;
 }
 
 span {
@@ -52,9 +83,33 @@ span {
 }
 
 .foot {
-    background-color: rgb(241, 230, 230);
-    padding: 30px 50px;
-    border-radius: 15px;
     font-size: 13px;
     text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.tab {
+    padding-bottom: 40px;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: rgb(182, 182, 182);
+}
+
+#textfoot1 {
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+#textfoot2 {
+    font-weight: normal;
+    padding-top: 20px;
 }
